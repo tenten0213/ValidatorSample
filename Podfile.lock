@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - Validator (2.1.1)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - Validator
+
+SPEC CHECKSUMS:
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Validator: b1793fbfd0046097551d0edd18e2c30792d69ef5
+
+PODFILE CHECKSUM: aac49e899c7b30952c2e36f04e1d561ba8dc648a
+
+COCOAPODS: 1.1.1
