@@ -1,0 +1,13 @@
+disabled_rules:
+line_length: 150
+
+excluded:
+- Pods
+
+file_length:
+  warning: 600
+  error: 1000
+ 
+function_body_length:
+  warning: 80
+  error: 120

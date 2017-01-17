@@ -8,6 +8,8 @@ target 'ValidatorSample' do
   # Pods for ValidatorSample
   pod 'Validator'
 
+  pod 'SwiftLint'
+
   target 'ValidatorSampleTests' do
     inherit! :search_paths
     # Pods for testing
