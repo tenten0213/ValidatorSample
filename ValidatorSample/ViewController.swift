@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func goSecondView(_ sender: UIButton) {
+        performSegue(withIdentifier: "goSeccondView", sender: nil)
+    }
 
     @IBAction func login(_ sender: UIButton) {
         let userIdValidateResult = userIdInput.validate(rule: ValidationRuleUserId(error: ValidationError(message: "💩")))

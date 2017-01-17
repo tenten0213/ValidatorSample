@@ -13,6 +13,7 @@
 		5A682DDB1E2DD0D200B8BA59 /* ValidationRuleUserId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A682DDA1E2DD0D200B8BA59 /* ValidationRuleUserId.swift */; };
 		5A682DDF1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A682DDE1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift */; };
 		7B114BAC4F0520B8A37F142E /* Pods_ValidatorSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28835EAE7CE2342C40FDA4 /* Pods_ValidatorSampleTests.framework */; };
+		AA336C7F1E2E4CFF00891948 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA336C7E1E2E4CFF00891948 /* SecondViewController.swift */; };
 		AAA1DB831E2D7D2800B85E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */; };
 		AAA1DB851E2D7D2800B85E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1DB841E2D7D2800B85E75 /* ViewController.swift */; };
 		AAA1DB881E2D7D2800B85E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA1DB861E2D7D2800B85E75 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		5A456EB11E2DC666003515A8 /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
 		5A682DDA1E2DD0D200B8BA59 /* ValidationRuleUserId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleUserId.swift; sourceTree = "<group>"; };
 		5A682DDE1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleUserIdTests.swift; sourceTree = "<group>"; };
+		AA336C7E1E2E4CFF00891948 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AAA1DB7F1E2D7D2800B85E75 /* ValidatorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA1DB841E2D7D2800B85E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */,
 				AAA1DB841E2D7D2800B85E75 /* ViewController.swift */,
 				AAA1DB861E2D7D2800B85E75 /* Main.storyboard */,
+				AA336C7E1E2E4CFF00891948 /* SecondViewController.swift */,
 				AAA1DB891E2D7D2800B85E75 /* Assets.xcassets */,
 				AAA1DB8B1E2D7D2800B85E75 /* LaunchScreen.storyboard */,
 				AAA1DB8E1E2D7D2800B85E75 /* Info.plist */,
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA336C7F1E2E4CFF00891948 /* SecondViewController.swift in Sources */,
 				5A456EB01E2DC540003515A8 /* CharacterTypeValidationPattern.swift in Sources */,
 				AAA1DB851E2D7D2800B85E75 /* ViewController.swift in Sources */,
 				AAA1DB831E2D7D2800B85E75 /* AppDelegate.swift in Sources */,
