@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  ValidatorSample
 //
-//  Created by Takehito Amanuma on 2017/01/17.
-//  Copyright © 2017年 tenten0213. All rights reserved.
 //
 
 import UIKit

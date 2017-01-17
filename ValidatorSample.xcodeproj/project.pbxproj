@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0FAC9A37F643B24539B9E4ED /* Pods_ValidatorSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F2FBB09686F6DCF5B5448F /* Pods_ValidatorSample.framework */; };
+		5A456EB01E2DC540003515A8 /* CharacterTypeValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A456EAF1E2DC540003515A8 /* CharacterTypeValidationPattern.swift */; };
+		5A456EB21E2DC666003515A8 /* ValidationErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A456EB11E2DC666003515A8 /* ValidationErrorType.swift */; };
+		5A682DDB1E2DD0D200B8BA59 /* ValidationRuleUserId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A682DDA1E2DD0D200B8BA59 /* ValidationRuleUserId.swift */; };
+		5A682DDF1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A682DDE1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift */; };
 		7B114BAC4F0520B8A37F142E /* Pods_ValidatorSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28835EAE7CE2342C40FDA4 /* Pods_ValidatorSampleTests.framework */; };
 		AAA1DB831E2D7D2800B85E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */; };
 		AAA1DB851E2D7D2800B85E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1DB841E2D7D2800B85E75 /* ViewController.swift */; };
@@ -31,6 +35,10 @@
 		02F03121893B5A04B013D31C /* Pods-ValidatorSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidatorSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValidatorSample/Pods-ValidatorSample.release.xcconfig"; sourceTree = "<group>"; };
 		0E28835EAE7CE2342C40FDA4 /* Pods_ValidatorSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValidatorSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		265B278BB18C211AB028F62F /* Pods-ValidatorSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValidatorSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValidatorSampleTests/Pods-ValidatorSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A456EAF1E2DC540003515A8 /* CharacterTypeValidationPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTypeValidationPattern.swift; sourceTree = "<group>"; };
+		5A456EB11E2DC666003515A8 /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
+		5A682DDA1E2DD0D200B8BA59 /* ValidationRuleUserId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleUserId.swift; sourceTree = "<group>"; };
+		5A682DDE1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationRuleUserIdTests.swift; sourceTree = "<group>"; };
 		AAA1DB7F1E2D7D2800B85E75 /* ValidatorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA1DB841E2D7D2800B85E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5A456EAD1E2DC3FE003515A8 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				5A456EAE1E2DC470003515A8 /* Rules */,
+				5A456EAF1E2DC540003515A8 /* CharacterTypeValidationPattern.swift */,
+				5A456EB11E2DC666003515A8 /* ValidationErrorType.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		5A456EAE1E2DC470003515A8 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				5A682DDA1E2DD0D200B8BA59 /* ValidationRuleUserId.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		5A682DDC1E2DD1DB00B8BA59 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				5A682DDD1E2DD1EC00B8BA59 /* Rules */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		5A682DDD1E2DD1EC00B8BA59 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				5A682DDE1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
 		99DDA67732BA2E53F2234D39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +151,7 @@
 		AAA1DB811E2D7D2800B85E75 /* ValidatorSample */ = {
 			isa = PBXGroup;
 			children = (
+				5A456EAD1E2DC3FE003515A8 /* Validator */,
 				AAA1DB821E2D7D2800B85E75 /* AppDelegate.swift */,
 				AAA1DB841E2D7D2800B85E75 /* ViewController.swift */,
 				AAA1DB861E2D7D2800B85E75 /* Main.storyboard */,
@@ -122,6 +165,7 @@
 		AAA1DB961E2D7D2800B85E75 /* ValidatorSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				5A682DDC1E2DD1DB00B8BA59 /* Validator */,
 				AAA1DB971E2D7D2800B85E75 /* ValidatorSampleTests.swift */,
 				AAA1DB991E2D7D2800B85E75 /* Info.plist */,
 			);
@@ -141,6 +185,7 @@
 				AAA1DB7D1E2D7D2800B85E75 /* Resources */,
 				D9D6BCABD55D692F513C0B32 /* [CP] Embed Pods Frameworks */,
 				8379B4FF8F6051A079AAA095 /* [CP] Copy Pods Resources */,
+				5A456EB31E2DCF50003515A8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -263,6 +308,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValidatorSampleTests/Pods-ValidatorSampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5A456EB31E2DCF50003515A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  ${PODS_ROOT}/SwiftLint/swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 		8379B4FF8F6051A079AAA095 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,8 +388,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A456EB01E2DC540003515A8 /* CharacterTypeValidationPattern.swift in Sources */,
 				AAA1DB851E2D7D2800B85E75 /* ViewController.swift in Sources */,
 				AAA1DB831E2D7D2800B85E75 /* AppDelegate.swift in Sources */,
+				5A682DDB1E2DD0D200B8BA59 /* ValidationRuleUserId.swift in Sources */,
+				5A456EB21E2DC666003515A8 /* ValidationErrorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A682DDF1E2DD25400B8BA59 /* ValidationRuleUserIdTests.swift in Sources */,
 				AAA1DB981E2D7D2800B85E75 /* ValidatorSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +603,7 @@
 				AAA1DB9E1E2D7D2800B85E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAA1DB9F1E2D7D2800B85E75 /* Build configuration list for PBXNativeTarget "ValidatorSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +612,7 @@
 				AAA1DBA11E2D7D2800B85E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
