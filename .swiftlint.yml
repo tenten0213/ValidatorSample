@@ -1,3 +1,5 @@
+included:
+  - ValidatorSample
 disabled_rules:
 line_length: 150
 
