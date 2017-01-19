@@ -13,7 +13,7 @@ class ValidationRuleUserIdTests: QuickSpec {
     override func spec() {
         describe("ユーザIdの精査ルールのテスト") {
             beforeEach {
-                let error = ValidationError(errorMessage: "エラーだよ")
+                let error = ValidationError(message: "エラーだよ")
                 self.subject = ValidationRuleUserId(error: error)
             }
             it("ユーザIDが16桁以下の英数字だったらtrueが返却されること") {
