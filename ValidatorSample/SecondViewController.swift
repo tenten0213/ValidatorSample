@@ -35,8 +35,7 @@ class SecondViewController: UIViewController {
         case .valid:
             userNameState.text = "😀"
         case .invalid(let failures):
-            let messages = failures.flatMap { $0 as? ValidationError }.map { $0.message }
-            userNameState.text = messages.joined(separator: "")
+            userNameState.text = (failures.first as? ValidationError)?.message
         }
     }
     func updatePhoneNumberValidationState(result: ValidationResult) {
@@ -44,8 +43,7 @@ class SecondViewController: UIViewController {
         case .valid:
             phoneNumberState.text = "😀"
         case .invalid(let failures):
-            let messages = failures.flatMap { $0 as? ValidationError }.map { $0.message }
-            phoneNumberState.text = messages.joined(separator: "")
+            phoneNumberState.text = (failures.first as? ValidationError)?.message
         }
     }
 
